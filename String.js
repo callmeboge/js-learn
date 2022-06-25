@@ -22,3 +22,14 @@ console.log(greetingTick);
 //output:
 // karakter \n akan di identifikasi sebagai baris baru dalam pernyataan string. ketiga format literal string mendukung karakter tersebut. 
 // Khusus string literal dengan tick terdapat fitur-fitur tambahan, seperti dukungan text interpolasi dan men format string keluaran sama dengan format penulisan scriptnya.
+
+// additional 
+// escape string
+var escapeString = '\'\t,/\\\r$#'
+console.log(escapeString)
+// output:
+// \r\n baris baru
+// \t tab
+// \\ \` escape character
+
+
