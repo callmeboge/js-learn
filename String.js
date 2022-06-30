@@ -32,4 +32,23 @@ console.log(escapeString)
 // \t tab
 // \\ \` escape character
 
+// PROPERTY and METHODS String
+// 
+// 
+const string1 = 'this is string 1'
+console.log(string1.prototype)
+console.log(string1.constructor('this is string constuctor'))
+console.log(string1.length)
+console.log(string1)
 
+const string0 = new String('this is string')
+console.log(string0.prototype)
+console.log(string0.constructor('this is string constuctor'))
+console.log(string0.length)
+console.log(string0)
+
+const string2 = String('this is string 2')
+console.log(string2.prototype)
+console.log(string2.constructor('this is string constuctor'))
+console.log(string2.length)
+console.log(string2)
