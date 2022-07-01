@@ -27,4 +27,4 @@ console.log(string2)
 // Kenapa pada baris 10, tipe data string yang merupakan tipe data primitif memiliki property length yang VALID.
 
 // Karena JS memiliki fitur bernama "PRIMITIVE WRAPPER TYPE" 
-// Fitur ini akan menjalankan proses pembuatan object String secara tersirat, dan akan menghapus objectnya setelah selesai dijalanakan.
+// Fitur ini akan menjalankan proses pembuatan object String secara implicit--under the hood--behind the scene, dan akan menghapus objectnya setelah selesai digunakan
